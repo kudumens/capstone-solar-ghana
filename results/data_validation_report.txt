@@ -1,0 +1,47 @@
+Data validation report — expected 7305 rows per site
+
+
+Accra (accra_power_daily_20050101_20241231.csv)
+  rows: 7305 (OK)
+  ALLSKY_SFC_SW_DWN    missing=    0 (0.00%)  min=0.51 max=7.13
+  T2M                  missing=    0 (0.00%)  min=22.53 max=30.13
+  RH2M                 missing=    0 (0.00%)  min=51.04 max=94.55
+  CLOUD_AMT            missing=    0 (0.00%)  min=0.51 max=99.95
+  PRECTOTCORR          missing=    0 (0.00%)  min=0.00 max=110.47
+  WS2M                 missing=    0 (0.00%)  min=0.99 max=4.94
+
+Takoradi (takoradi_power_daily_20050101_20241231.csv)
+  rows: 7305 (OK)
+  ALLSKY_SFC_SW_DWN    missing=    0 (0.00%)  min=0.54 max=7.11
+  T2M                  missing=    0 (0.00%)  min=22.64 max=30.75
+  RH2M                 missing=    0 (0.00%)  min=46.17 max=94.28
+  CLOUD_AMT            missing=    0 (0.00%)  min=2.83 max=99.86
+  PRECTOTCORR          missing=    0 (0.00%)  min=0.00 max=143.26
+  WS2M                 missing=    0 (0.00%)  min=0.50 max=3.55
+
+Kumasi (kumasi_power_daily_20050101_20241231.csv)
+  rows: 7305 (OK)
+  ALLSKY_SFC_SW_DWN    missing=    0 (0.00%)  min=1.29 max=7.06
+  T2M                  missing=    0 (0.00%)  min=19.73 max=32.14
+  RH2M                 missing=    0 (0.00%)  min=22.11 max=95.28
+  CLOUD_AMT            missing=    0 (0.00%)  min=0.40 max=99.95
+  PRECTOTCORR          missing=    0 (0.00%)  min=0.00 max=151.59
+  WS2M                 missing=    0 (0.00%)  min=0.41 max=3.67
+
+Tamale (tamale_power_daily_20050101_20241231.csv)
+  rows: 7305 (OK)
+  ALLSKY_SFC_SW_DWN    missing=    0 (0.00%)  min=0.65 max=7.30
+  T2M                  missing=    0 (0.00%)  min=18.67 max=34.45
+  RH2M                 missing=    0 (0.00%)  min=13.15 max=94.49
+  CLOUD_AMT            missing=    0 (0.00%)  min=0.00 max=99.88
+  PRECTOTCORR          missing=    0 (0.00%)  min=0.00 max=71.69
+  WS2M                 missing=    0 (0.00%)  min=0.46 max=4.97
+
+Navrongo (navrongo_power_daily_20050101_20241231.csv)
+  rows: 7305 (OK)
+  ALLSKY_SFC_SW_DWN    missing=    0 (0.00%)  min=0.74 max=7.71
+  T2M                  missing=    0 (0.00%)  min=18.10 max=36.14
+  RH2M                 missing=    0 (0.00%)  min=6.46 max=94.99
+  CLOUD_AMT            missing=    0 (0.00%)  min=0.00 max=99.94
+  PRECTOTCORR          missing=    0 (0.00%)  min=0.00 max=115.04
+  WS2M                 missing=    0 (0.00%)  min=0.40 max=5.48

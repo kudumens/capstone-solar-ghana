@@ -1,0 +1,7 @@
+
+=== Download run 2026-07-13T19:58:27.771295 ===
+accra_power_daily_20050101_20241231.csv: 7305 data rows, sha256:09d335d732b637a1
+takoradi_power_daily_20050101_20241231.csv: 7305 data rows, sha256:adff667611a00086
+kumasi_power_daily_20050101_20241231.csv: 7305 data rows, sha256:b9009d78eeb1c6a4
+tamale_power_daily_20050101_20241231.csv: 7305 data rows, sha256:a8f10bf20a2cf4f1
+navrongo_power_daily_20050101_20241231.csv: 7305 data rows, sha256:3454daf058863c66

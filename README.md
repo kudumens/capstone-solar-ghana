@@ -1,13 +1,13 @@
 # Forecasting Solar Irradiance and Probabilistic Off-Grid Solar Sizing for Ghana Using Machine Learning
 
 QM 640 Data Analytics Capstone — Walsh College / Great Learning (MSc)
-Author: Richard Adjei-Mensah · Summer 2026
+Author: Richard Adjei-Mensah · Term 3 - 2026
 
 ## Overview
 
 This project (1) develops and statistically compares classical (seasonal-naïve persistence, SARIMA) and machine-learning (random forest, XGBoost, LSTM) models forecasting daily global horizontal irradiance (GHI) at five sites spanning Ghana's coastal, forest, and savannah climatic zones, and (2) converts the same twenty-year irradiance record into a probabilistic off-grid sizing model that computes, per climatic zone, the PV array and battery capacity required to serve a household load (benchmark: 200 kWh/month) at a target loss-of-load probability (LOLP).
 
-**Research questions**
+### Research questions
 
 - **RQ1** — How accurately can ML models forecast daily GHI across Ghana's climatic zones?
 - **RQ2** — Which meteorological variables most strongly drive irradiance variation?
@@ -19,15 +19,15 @@ This project (1) develops and statistically compares classical (seasonal-naïve 
 
 Source: [NASA POWER](https://power.larc.nasa.gov/) daily point data (Renewable Energy community), 2005-01-01 → 2024-12-31, six parameters: `ALLSKY_SFC_SW_DWN` (GHI), `T2M`, `RH2M`, `CLOUD_AMT`, `PRECTOTCORR`, `WS2M`.
 
-| Site | Zone | Lat | Lon |
-|------|------|-----|-----|
-| Accra | Coastal savannah | 5.60 | -0.19 |
-| Takoradi | Coastal | 4.90 | -1.76 |
-| Kumasi | Moist forest | 6.69 | -1.62 |
-| Tamale | Guinea savannah | 9.40 | -0.84 |
-| Navrongo | Sudan savannah | 10.89 | -1.09 |
+| Site     | Zone             | Lat   | Lon   |
+| -------- | ---------------- | ----- | ----- |
+| Accra    | Coastal savannah | 5.60  | -0.19 |
+| Takoradi | Coastal          | 4.90  | -1.76 |
+| Kumasi   | Moist forest     | 6.69  | -1.62 |
+| Tamale   | Guinea savannah  | 9.40  | -0.84 |
+| Navrongo | Sudan savannah   | 10.89 | -1.09 |
 
-NASA POWER data are free and openly licensed; no registration required. Validation for Ghana: Quansah et al. (2022), *Scientific Reports* 12, 10684.
+NASA POWER data are free and openly licensed; no registration required. Validation for Ghana: Quansah et al. (2022), _Scientific Reports_ 12, 10684.
 
 ## Reproduction
 
@@ -48,7 +48,7 @@ jupyter lab notebooks/
 
 ## Repository structure
 
-```
+```text
 capstone-solar-ghana/
 ├── README.md
 ├── LICENSE

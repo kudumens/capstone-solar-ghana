@@ -30,8 +30,9 @@ def season_of(month: int) -> str:
 def load_site(key: str) -> pd.DataFrame:
     path = DATA_RAW / f"{key}_power_daily_{START}_{END}.csv"
     df = pd.read_csv(path)
+    # NASA POWER daily CSVs use YEAR, MO (month), DY (day) columns.
     df["date"] = pd.to_datetime(
-        df["YEAR"].astype(str) + df["DOY"].astype(str).str.zfill(3), format="%Y%j"
+        {"year": df["YEAR"], "month": df["MO"], "day": df["DY"]}
     )
     df = df.set_index("date").sort_index()
     df = df[PARAMETERS].replace(-999, np.nan)
