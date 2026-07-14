@@ -1,4 +1,4 @@
-# Forecasting Solar Irradiance and Probabilistic Off-Grid Solar Sizing for Ghana Using Machine Learning
+# Machine-Learning Forecasting of Solar Irradiance and Reliability-Constrained Off-Grid Solar Sizing Across Ghana’s Climatic Zones
 
 QM 640 Data Analytics Capstone — Walsh College / Great Learning (MSc)
 Author: Richard Adjei-Mensah · Term 3 - 2026
