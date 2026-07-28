@@ -1,0 +1,6 @@
+Site,Zone,N days,Mean,Std,Min,P5,Median,P95,Max
+Navrongo,sudan_savannah,7305,5.53,1.0,0.74,3.49,5.73,6.8,7.71
+Tamale,guinea_savannah,7305,5.25,0.98,0.65,3.28,5.43,6.53,7.3
+Kumasi,forest,7305,4.71,0.82,1.29,3.26,4.77,5.97,7.06
+Accra,coastal_savannah,7305,4.89,0.94,0.51,3.05,5.07,6.16,7.13
+Takoradi,coastal,7305,4.96,1.09,0.54,2.79,5.16,6.35,7.11

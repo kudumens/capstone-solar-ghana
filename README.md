@@ -5,15 +5,14 @@ Author: Richard Adjei-Mensah · Term 3 - 2026
 
 ## Overview
 
-This project (1) develops and statistically compares classical (seasonal-naïve persistence, SARIMA) and machine-learning (random forest, XGBoost, LSTM) models forecasting daily global horizontal irradiance (GHI) at five sites spanning Ghana's coastal, forest, and savannah climatic zones, and (2) converts the same twenty-year irradiance record into a probabilistic off-grid sizing model that computes, per climatic zone, the PV array and battery capacity required to serve a household load (benchmark: 200 kWh/month) at a target loss-of-load probability (LOLP).
+This project (1) develops and statistically compares classical (persistence, day-of-year climatology, and SARIMA-class dynamic harmonic regression) and machine-learning (random forest, XGBoost, LSTM) models forecasting daily global horizontal irradiance (GHI) at five sites spanning Ghana's coastal, forest, and savannah climatic zones, and (2) converts the same twenty-year irradiance record into a probabilistic off-grid sizing model that computes, per climatic zone, the PV array and battery capacity required to serve a household load (benchmark: 200 kWh/month) at a target loss-of-load probability (LOLP).
 
 ### Research questions
 
-- **RQ1** — How accurately can ML models forecast daily GHI across Ghana's climatic zones?
-- **RQ2** — Which meteorological variables most strongly drive irradiance variation?
-- **RQ3** — Do ML models significantly outperform classical baselines at 1-day and 7-day horizons?
-- **RQ4** — How does accuracy differ between wet/dry (Harmattan) seasons and across zones?
-- **RQ5** — What PV array + battery capacity does an off-grid household need per zone for 200 kWh/month at 1–5% LOLP?
+- **RQ1** — How accurately can ML models (random forest, XGBoost, LSTM) forecast daily GHI across Ghana's climatic zones, and do they significantly outperform classical approaches (persistence, day-of-year climatology, dynamic harmonic regression) at the 1-day and 7-day horizons?
+- **RQ2** — Which meteorological variables are most strongly associated with daily solar-irradiance variation, and which contribute most to predictive performance?
+- **RQ3** — How does forecasting accuracy differ between the wet and dry seasons (including the Harmattan) and across the north–south climatic gradient?
+- **RQ4** — What PV array + battery capacity does an off-grid household need per climatic zone to serve 100/200/300 kWh/month at 1–5% LOLP?
 
 ## Data
 
@@ -68,7 +67,7 @@ capstone-solar-ghana/
 
 ## Methods summary
 
-Temporal split: train 2005–2020, validate 2021–2022, test 2023–2024 (no shuffling). Metrics: RMSE, MAE, R², skill vs. seasonal-naïve baseline (target ≥ 15% RMSE reduction), Diebold–Mariano tests for RQ3, LOLP for RQ5. See the synopsis in `reports/` for full methodology.
+Temporal split: train 2005–2020, validate 2021–2022, test 2023–2024 (no shuffling). Metrics: RMSE, MAE, R², skill vs. classical baselines (target ≥ 15% RMSE reduction), Diebold–Mariano tests for RQ1, seasonal/zonal stratification for RQ3, LOLP for RQ4. See the synopsis in `reports/` for full methodology.
 
 ## License
 

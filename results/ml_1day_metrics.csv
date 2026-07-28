@@ -1,0 +1,11 @@
+Site,Model,Horizon,RMSE,MAE,R2,N
+Navrongo,Random forest,1-day,0.934,0.67,0.198,730
+Navrongo,XGBoost,1-day,0.946,0.676,0.176,730
+Tamale,Random forest,1-day,0.857,0.621,0.261,730
+Tamale,XGBoost,1-day,0.879,0.635,0.224,730
+Kumasi,Random forest,1-day,0.686,0.501,0.287,730
+Kumasi,XGBoost,1-day,0.688,0.508,0.282,730
+Accra,Random forest,1-day,0.82,0.601,0.18,730
+Accra,XGBoost,1-day,0.827,0.598,0.166,730
+Takoradi,Random forest,1-day,0.945,0.718,0.178,730
+Takoradi,XGBoost,1-day,0.957,0.724,0.158,730
