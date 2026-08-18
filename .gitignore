@@ -18,3 +18,4 @@ Thumbs.db
 # Models
 *.h5
 *.keras
+results/cache/

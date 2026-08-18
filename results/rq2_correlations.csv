@@ -1,0 +1,26 @@
+Site,Driver,Spearman rho,p Holm,|rho| rank
+Navrongo,T2M,0.342,1.27e-198,2
+Navrongo,RH2M,-0.289,1.23e-139,3
+Navrongo,CLOUD_AMT,-0.502,0.0,1
+Navrongo,PRECTOTCORR,-0.239,2.97e-95,4
+Navrongo,WS2M,0.135,6.54e-31,5
+Tamale,T2M,0.402,2.23e-281,2
+Tamale,RH2M,-0.315,3.93e-167,3
+Tamale,CLOUD_AMT,-0.443,0.0,1
+Tamale,PRECTOTCORR,-0.253,4.01e-107,4
+Tamale,WS2M,0.082,1.66e-12,5
+Kumasi,T2M,0.463,0.0,2
+Kumasi,RH2M,-0.376,5.45e-243,3
+Kumasi,CLOUD_AMT,-0.574,0.0,1
+Kumasi,PRECTOTCORR,-0.187,2.57e-58,5
+Kumasi,WS2M,-0.256,1.53e-109,4
+Accra,T2M,0.39,6.97e-264,2
+Accra,RH2M,-0.338,2.8e-194,3
+Accra,CLOUD_AMT,-0.633,0.0,1
+Accra,PRECTOTCORR,-0.148,3.48e-37,5
+Accra,WS2M,-0.225,5.95e-84,4
+Takoradi,T2M,0.197,1.1e-64,4
+Takoradi,RH2M,-0.251,2.46e-104,2
+Takoradi,CLOUD_AMT,-0.689,0.0,1
+Takoradi,PRECTOTCORR,-0.238,2.43e-94,3
+Takoradi,WS2M,-0.196,1.82e-64,5

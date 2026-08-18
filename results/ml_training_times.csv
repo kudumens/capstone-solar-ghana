@@ -1,0 +1,31 @@
+Site,Model,Horizon,Selection_s,Refit_s,Total_s,Source
+Navrongo,Random forest,1-day,80.0,,80.0,artifact timestamps
+Navrongo,XGBoost,1-day,41.4,,41.4,artifact timestamps
+Tamale,Random forest,1-day,74.0,,74.0,artifact timestamps
+Tamale,XGBoost,1-day,30.4,,30.4,artifact timestamps
+Kumasi,Random forest,1-day,62.1,,62.1,artifact timestamps
+Kumasi,XGBoost,1-day,33.5,,33.5,artifact timestamps
+Accra,Random forest,1-day,86.0,,86.0,artifact timestamps
+Accra,XGBoost,1-day,39.1,,39.1,artifact timestamps
+Takoradi,Random forest,1-day,95.6,,95.6,artifact timestamps
+Takoradi,XGBoost,1-day,31.0,,31.0,artifact timestamps
+Navrongo,Random forest,7-day,62.9,,62.9,artifact timestamps
+Navrongo,XGBoost,7-day,30.8,,30.8,artifact timestamps
+Tamale,Random forest,7-day,72.5,,72.5,artifact timestamps
+Tamale,XGBoost,7-day,41.6,,41.6,artifact timestamps
+Kumasi,Random forest,7-day,81.5,,81.5,artifact timestamps
+Kumasi,XGBoost,7-day,47.9,,47.9,artifact timestamps
+Accra,Random forest,7-day,74.0,,74.0,artifact timestamps
+Accra,XGBoost,7-day,31.3,,31.3,artifact timestamps
+Takoradi,Random forest,7-day,66.4,,66.4,artifact timestamps
+Takoradi,XGBoost,7-day,29.2,,29.2,artifact timestamps
+Navrongo,LSTM,1-day,523.4,29.8,553.2,artifact timestamps
+Tamale,LSTM,1-day,570.1,94.5,664.6,artifact timestamps
+Kumasi,LSTM,1-day,701.1,37.7,738.8,artifact timestamps
+Accra,LSTM,1-day,342.6,35.8,378.4,artifact timestamps
+Takoradi,LSTM,1-day,386.1,14.9,401.0,artifact timestamps
+Navrongo,LSTM,7-day,404.7,9.7,414.4,artifact timestamps
+Tamale,LSTM,7-day,456.5,31.6,488.0,artifact timestamps
+Kumasi,LSTM,7-day,475.3,22.5,497.9,artifact timestamps
+Accra,LSTM,7-day,260.1,8.6,268.7,artifact timestamps
+Takoradi,LSTM,7-day,239.7,6.9,246.6,artifact timestamps

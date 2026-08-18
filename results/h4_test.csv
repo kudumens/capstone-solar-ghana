@@ -1,0 +1,13 @@
+LOLP target,Site,Battery (kWh nominal),Year-block 95% CI
+0.01,Navrongo,4.3,"[4.0, 4.6]"
+0.01,Tamale,5.2,"[4.8, 5.6]"
+0.01,Kumasi,32.4,"[20.5, 43.0]"
+0.01,Accra,10.9,"[8.2, 14.0]"
+0.01,Takoradi,12.3,"[9.1, 16.4]"
+0.01,H4: Kumasi vs Navrongo,653.5,"[375.5, 924.5] (%)"
+0.05,Navrongo,1.4,"[1.1, 1.7]"
+0.05,Tamale,2.0,"[1.7, 2.5]"
+0.05,Kumasi,6.2,"[3.7, 11.7]"
+0.05,Accra,3.6,"[3.0, 4.1]"
+0.05,Takoradi,4.2,"[3.7, 4.8]"
+0.05,H4: Kumasi vs Navrongo,342.9,"[143.7, 776.9] (%)"

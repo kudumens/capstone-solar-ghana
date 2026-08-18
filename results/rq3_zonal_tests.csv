@@ -1,0 +1,21 @@
+Horizon,Zone A,Zone B,RMSE A,RMSE B,Diff,Block len,p (two-sided MBB),p Holm,Significant (5%)
+1-day,sudan_savannah,guinea_savannah,0.845,0.828,0.017,1,0.5287,1.0,no
+1-day,sudan_savannah,forest,0.845,0.664,0.181,1,0.001,0.01,yes
+1-day,sudan_savannah,coastal_savannah,0.845,0.841,0.003,1,0.9185,1.0,no
+1-day,sudan_savannah,coastal,0.845,1.024,-0.179,1,0.001,0.01,yes
+1-day,guinea_savannah,forest,0.828,0.664,0.164,1,0.001,0.01,yes
+1-day,guinea_savannah,coastal_savannah,0.828,0.841,-0.013,1,0.7286,1.0,no
+1-day,guinea_savannah,coastal,0.828,1.024,-0.196,1,0.001,0.01,yes
+1-day,forest,coastal_savannah,0.664,0.841,-0.177,1,0.001,0.01,yes
+1-day,forest,coastal,0.664,1.024,-0.359,1,0.001,0.01,yes
+1-day,coastal_savannah,coastal,0.841,1.024,-0.182,1,0.001,0.01,yes
+7-day,sudan_savannah,guinea_savannah,0.867,0.878,-0.012,7,0.7306,1.0,no
+7-day,sudan_savannah,forest,0.867,0.695,0.171,7,0.001,0.01,yes
+7-day,sudan_savannah,coastal_savannah,0.867,0.89,-0.023,7,0.6337,1.0,no
+7-day,sudan_savannah,coastal,0.867,1.1,-0.234,7,0.001,0.01,yes
+7-day,guinea_savannah,forest,0.878,0.695,0.183,7,0.001,0.01,yes
+7-day,guinea_savannah,coastal_savannah,0.878,0.89,-0.012,7,0.7886,1.0,no
+7-day,guinea_savannah,coastal,0.878,1.1,-0.222,7,0.001,0.01,yes
+7-day,forest,coastal_savannah,0.695,0.89,-0.194,7,0.001,0.01,yes
+7-day,forest,coastal,0.695,1.1,-0.405,7,0.001,0.01,yes
+7-day,coastal_savannah,coastal,0.89,1.1,-0.21,7,0.001,0.01,yes

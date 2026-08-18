@@ -1,11 +1,16 @@
 Site,Model,RMSE,MAE,R2,DHR RMSE,Skill vs DHR (%)
-Navrongo,Random forest,0.934,0.67,0.198,0.939,0.5
-Navrongo,XGBoost,0.946,0.676,0.176,0.939,-0.7
-Tamale,Random forest,0.857,0.621,0.261,0.882,2.8
-Tamale,XGBoost,0.879,0.635,0.224,0.882,0.3
-Kumasi,Random forest,0.686,0.501,0.287,0.699,1.9
-Kumasi,XGBoost,0.688,0.508,0.282,0.699,1.6
-Accra,Random forest,0.82,0.601,0.18,0.863,5.0
-Accra,XGBoost,0.827,0.598,0.166,0.863,4.2
-Takoradi,Random forest,0.945,0.718,0.178,0.992,4.7
-Takoradi,XGBoost,0.957,0.724,0.158,0.992,3.5
+Navrongo,Random forest,0.924,0.664,0.215,0.939,1.6
+Navrongo,XGBoost,0.938,0.671,0.191,0.939,0.1
+Tamale,Random forest,0.859,0.624,0.258,0.882,2.6
+Tamale,XGBoost,0.881,0.635,0.22,0.882,0.1
+Kumasi,Random forest,0.682,0.5,0.295,0.699,2.4
+Kumasi,XGBoost,0.693,0.51,0.272,0.699,0.9
+Accra,Random forest,0.819,0.599,0.181,0.863,5.1
+Accra,XGBoost,0.829,0.602,0.162,0.863,3.9
+Takoradi,Random forest,0.946,0.722,0.177,0.992,4.6
+Takoradi,XGBoost,0.943,0.716,0.182,0.992,4.9
+Navrongo,LSTM,0.914,0.658,0.232,0.939,2.7
+Tamale,LSTM,0.867,0.632,0.245,0.882,1.7
+Kumasi,LSTM,0.686,0.497,0.287,0.699,1.9
+Accra,LSTM,0.826,0.59,0.167,0.863,4.3
+Takoradi,LSTM,0.953,0.718,0.164,0.992,3.9

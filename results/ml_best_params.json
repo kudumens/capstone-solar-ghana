@@ -1,0 +1,187 @@
+{
+  "navrongo|Random forest|1-day": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+  },
+  "navrongo|XGBoost|1-day": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 0.8
+  },
+  "tamale|Random forest|1-day": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "min_samples_leaf": 5
+  },
+  "tamale|XGBoost|1-day": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 1.0
+  },
+  "kumasi|Random forest|1-day": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+  },
+  "kumasi|XGBoost|1-day": {
+    "colsample_bytree": 1.0,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 1,
+    "subsample": 0.8
+  },
+  "accra|Random forest|1-day": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 2
+  },
+  "accra|XGBoost|1-day": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 1.0
+  },
+  "takoradi|Random forest|1-day": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+  },
+  "takoradi|XGBoost|1-day": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 0.8
+  },
+  "navrongo|Random forest|7-day": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+  },
+  "navrongo|XGBoost|7-day": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 1.0
+  },
+  "tamale|Random forest|7-day": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+  },
+  "tamale|XGBoost|7-day": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 0.8
+  },
+  "kumasi|Random forest|7-day": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+  },
+  "kumasi|XGBoost|7-day": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 1.0
+  },
+  "accra|Random forest|7-day": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+  },
+  "accra|XGBoost|7-day": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 1,
+    "subsample": 1.0
+  },
+  "takoradi|Random forest|7-day": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+  },
+  "takoradi|XGBoost|7-day": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 1,
+    "subsample": 0.8
+  },
+  "navrongo|LSTM|1-day": {
+    "units": 64,
+    "n_layers": 2,
+    "dropout": 0.2,
+    "best_epoch": 15
+  },
+  "tamale|LSTM|1-day": {
+    "units": 128,
+    "n_layers": 2,
+    "dropout": 0.2,
+    "best_epoch": 15
+  },
+  "kumasi|LSTM|1-day": {
+    "units": 32,
+    "n_layers": 2,
+    "dropout": 0.2,
+    "best_epoch": 36
+  },
+  "accra|LSTM|1-day": {
+    "units": 128,
+    "n_layers": 2,
+    "dropout": 0.2,
+    "best_epoch": 7
+  },
+  "takoradi|LSTM|1-day": {
+    "units": 64,
+    "n_layers": 2,
+    "dropout": 0.2,
+    "best_epoch": 7
+  },
+  "navrongo|LSTM|7-day": {
+    "units": 32,
+    "n_layers": 1,
+    "dropout": 0.2,
+    "best_epoch": 16
+  },
+  "tamale|LSTM|7-day": {
+    "units": 128,
+    "n_layers": 1,
+    "dropout": 0.2,
+    "best_epoch": 12
+  },
+  "kumasi|LSTM|7-day": {
+    "units": 32,
+    "n_layers": 2,
+    "dropout": 0.0,
+    "best_epoch": 21
+  },
+  "accra|LSTM|7-day": {
+    "units": 32,
+    "n_layers": 2,
+    "dropout": 0.2,
+    "best_epoch": 6
+  },
+  "takoradi|LSTM|7-day": {
+    "units": 32,
+    "n_layers": 2,
+    "dropout": 0.2,
+    "best_epoch": 5
+  },
+  "_meta": {
+    "search_mode": "full",
+    "seed": 42,
+    "rf_n_estimators": 500
+  }
+}

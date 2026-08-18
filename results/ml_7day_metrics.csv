@@ -1,0 +1,16 @@
+Site,Model,Horizon,RMSE,MAE,R2,N
+Navrongo,Random forest,7-day,0.958,0.72,0.158,730
+Navrongo,XGBoost,7-day,0.969,0.728,0.14,730
+Tamale,Random forest,7-day,0.91,0.686,0.173,730
+Tamale,XGBoost,7-day,0.929,0.701,0.138,730
+Kumasi,Random forest,7-day,0.699,0.517,0.259,730
+Kumasi,XGBoost,7-day,0.712,0.525,0.232,730
+Accra,Random forest,7-day,0.862,0.628,0.093,730
+Accra,XGBoost,7-day,0.892,0.641,0.029,730
+Takoradi,Random forest,7-day,1.013,0.774,0.052,730
+Takoradi,XGBoost,7-day,1.029,0.785,0.023,730
+Navrongo,LSTM,7-day,0.967,0.731,0.143,730
+Tamale,LSTM,7-day,0.908,0.69,0.177,730
+Kumasi,LSTM,7-day,0.723,0.542,0.207,730
+Accra,LSTM,7-day,0.87,0.652,0.076,730
+Takoradi,LSTM,7-day,1.011,0.781,0.057,730

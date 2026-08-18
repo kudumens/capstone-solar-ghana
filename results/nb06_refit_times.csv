@@ -1,0 +1,31 @@
+Site,Model,Horizon,Refit_s
+Navrongo,Random forest,1-day,1.9
+Navrongo,XGBoost,1-day,0.5
+Tamale,Random forest,1-day,5.0
+Tamale,XGBoost,1-day,0.3
+Kumasi,Random forest,1-day,2.2
+Kumasi,XGBoost,1-day,0.4
+Accra,Random forest,1-day,3.4
+Accra,XGBoost,1-day,0.4
+Takoradi,Random forest,1-day,2.5
+Takoradi,XGBoost,1-day,0.3
+Navrongo,Random forest,7-day,2.2
+Navrongo,XGBoost,7-day,0.3
+Tamale,Random forest,7-day,2.2
+Tamale,XGBoost,7-day,0.2
+Kumasi,Random forest,7-day,1.7
+Kumasi,XGBoost,7-day,0.2
+Accra,Random forest,7-day,1.8
+Accra,XGBoost,7-day,0.2
+Takoradi,Random forest,7-day,1.9
+Takoradi,XGBoost,7-day,0.2
+Navrongo,LSTM,1-day,54.5
+Tamale,LSTM,1-day,92.7
+Kumasi,LSTM,1-day,45.3
+Accra,LSTM,1-day,66.3
+Takoradi,LSTM,1-day,26.5
+Navrongo,LSTM,7-day,9.6
+Tamale,LSTM,7-day,28.9
+Kumasi,LSTM,7-day,25.8
+Accra,LSTM,7-day,8.0
+Takoradi,LSTM,7-day,6.7

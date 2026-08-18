@@ -1,0 +1,41 @@
+Site,Horizon,Blend,RMSE,Best single RMSE,Gain vs best single (%)
+Navrongo,1-day,RF+XGB+LSTM (equal),0.918,0.914,-0.4
+Navrongo,1-day,50% best ML + DHR,0.919,0.914,-0.5
+Navrongo,1-day,60% best ML + DHR,0.917,0.914,-0.3
+Navrongo,1-day,70% best ML + DHR,0.915,0.914,-0.1
+Navrongo,7-day,RF+XGB+LSTM (equal),0.958,0.958,0.0
+Navrongo,7-day,50% best ML + DHR,0.957,0.958,0.1
+Navrongo,7-day,60% best ML + DHR,0.957,0.958,0.1
+Navrongo,7-day,70% best ML + DHR,0.957,0.958,0.1
+Tamale,1-day,RF+XGB+LSTM (equal),0.862,0.859,-0.4
+Tamale,1-day,50% best ML + DHR,0.862,0.859,-0.3
+Tamale,1-day,60% best ML + DHR,0.86,0.859,-0.1
+Tamale,1-day,70% best ML + DHR,0.859,0.859,0.0
+Tamale,7-day,RF+XGB+LSTM (equal),0.91,0.908,-0.2
+Tamale,7-day,50% best ML + DHR,0.904,0.908,0.4
+Tamale,7-day,60% best ML + DHR,0.904,0.908,0.4
+Tamale,7-day,70% best ML + DHR,0.905,0.908,0.4
+Kumasi,1-day,RF+XGB+LSTM (equal),0.682,0.682,-0.1
+Kumasi,1-day,50% best ML + DHR,0.686,0.682,-0.6
+Kumasi,1-day,60% best ML + DHR,0.684,0.682,-0.3
+Kumasi,1-day,70% best ML + DHR,0.683,0.682,-0.2
+Kumasi,7-day,RF+XGB+LSTM (equal),0.707,0.699,-1.1
+Kumasi,7-day,50% best ML + DHR,0.701,0.699,-0.3
+Kumasi,7-day,60% best ML + DHR,0.7,0.699,-0.1
+Kumasi,7-day,70% best ML + DHR,0.699,0.699,-0.1
+Accra,1-day,RF+XGB+LSTM (equal),0.816,0.819,0.4
+Accra,1-day,50% best ML + DHR,0.832,0.819,-1.6
+Accra,1-day,60% best ML + DHR,0.828,0.819,-1.1
+Accra,1-day,70% best ML + DHR,0.825,0.819,-0.7
+Accra,7-day,RF+XGB+LSTM (equal),0.868,0.862,-0.8
+Accra,7-day,50% best ML + DHR,0.866,0.862,-0.5
+Accra,7-day,60% best ML + DHR,0.865,0.862,-0.3
+Accra,7-day,70% best ML + DHR,0.864,0.862,-0.2
+Takoradi,1-day,RF+XGB+LSTM (equal),0.939,0.943,0.4
+Takoradi,1-day,50% best ML + DHR,0.952,0.943,-0.9
+Takoradi,1-day,60% best ML + DHR,0.947,0.943,-0.5
+Takoradi,1-day,70% best ML + DHR,0.944,0.943,-0.1
+Takoradi,7-day,RF+XGB+LSTM (equal),1.01,1.011,0.1
+Takoradi,7-day,50% best ML + DHR,1.013,1.011,-0.2
+Takoradi,7-day,60% best ML + DHR,1.012,1.011,-0.1
+Takoradi,7-day,70% best ML + DHR,1.011,1.011,-0.0
