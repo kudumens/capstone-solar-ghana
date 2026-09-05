@@ -1,16 +1,16 @@
 Site,Model,RMSE,MAE,R2,DHR RMSE,Skill vs DHR (%)
 Navrongo,Random forest,0.958,0.72,0.158,0.959,0.1
-Navrongo,XGBoost,0.969,0.728,0.14,0.959,-1.0
+Navrongo,XGBoost,0.964,0.726,0.149,0.959,-0.5
 Tamale,Random forest,0.91,0.686,0.173,0.905,-0.6
-Tamale,XGBoost,0.929,0.701,0.138,0.905,-2.7
+Tamale,XGBoost,0.93,0.701,0.137,0.905,-2.8
 Kumasi,Random forest,0.699,0.517,0.259,0.709,1.4
-Kumasi,XGBoost,0.712,0.525,0.232,0.709,-0.4
-Accra,Random forest,0.862,0.628,0.093,0.874,1.4
-Accra,XGBoost,0.892,0.641,0.029,0.874,-2.1
+Kumasi,XGBoost,0.714,0.526,0.228,0.709,-0.7
+Accra,Random forest,0.863,0.628,0.092,0.874,1.3
+Accra,XGBoost,0.884,0.642,0.047,0.874,-1.1
 Takoradi,Random forest,1.013,0.774,0.052,1.023,1.0
-Takoradi,XGBoost,1.029,0.785,0.023,1.023,-0.6
+Takoradi,XGBoost,1.029,0.786,0.021,1.023,-0.6
 Navrongo,LSTM,0.967,0.731,0.143,0.959,-0.8
-Tamale,LSTM,0.908,0.69,0.177,0.905,-0.3
+Tamale,LSTM,0.898,0.685,0.194,0.905,0.8
 Kumasi,LSTM,0.723,0.542,0.207,0.709,-2.0
 Accra,LSTM,0.87,0.652,0.076,0.874,0.5
 Takoradi,LSTM,1.011,0.781,0.057,1.023,1.2

@@ -1,14 +1,14 @@
 Site,Model,Horizon,RMSE,MAE,R2,N
 Navrongo,Random forest,1-day,0.924,0.664,0.215,730
-Navrongo,XGBoost,1-day,0.938,0.671,0.191,730
-Tamale,Random forest,1-day,0.859,0.624,0.258,730
-Tamale,XGBoost,1-day,0.881,0.635,0.22,730
-Kumasi,Random forest,1-day,0.682,0.5,0.295,730
-Kumasi,XGBoost,1-day,0.693,0.51,0.272,730
+Navrongo,XGBoost,1-day,0.939,0.674,0.189,730
+Tamale,Random forest,1-day,0.859,0.624,0.259,730
+Tamale,XGBoost,1-day,0.879,0.634,0.223,730
+Kumasi,Random forest,1-day,0.683,0.501,0.293,730
+Kumasi,XGBoost,1-day,0.688,0.506,0.282,730
 Accra,Random forest,1-day,0.819,0.599,0.181,730
-Accra,XGBoost,1-day,0.829,0.602,0.162,730
-Takoradi,Random forest,1-day,0.946,0.722,0.177,730
-Takoradi,XGBoost,1-day,0.943,0.716,0.182,730
+Accra,XGBoost,1-day,0.828,0.599,0.163,730
+Takoradi,Random forest,1-day,0.947,0.722,0.176,730
+Takoradi,XGBoost,1-day,0.95,0.714,0.17,730
 Navrongo,LSTM,1-day,0.914,0.658,0.232,730
 Tamale,LSTM,1-day,0.867,0.632,0.245,730
 Kumasi,LSTM,1-day,0.686,0.497,0.287,730

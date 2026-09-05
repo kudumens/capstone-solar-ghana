@@ -1,21 +1,21 @@
 Site,Horizon,Best ML,Reference,N,Skill (%),Skill 95% CI,DM t (HLN),p (one-sided),Block len,ADF p (d_t),p Holm,Significant (5%)
-Navrongo,1-day,LSTM,DHR,730,0.4,"[-1.8, 2.4]",-0.35,0.3647,1,0.0,0.3647,no
-Tamale,1-day,Random forest,DHR,730,2.7,"[0.9, 4.7]",-2.84,0.0023,1,0.0,0.0046,yes
-Kumasi,1-day,Random forest,DHR,730,3.5,"[1.9, 4.9]",-4.09,0.0,1,0.0,0.0001,yes
+Navrongo,1-day,LSTM,DHR,730,0.4,"[-1.7, 2.4]",-0.37,0.3556,1,0.0,0.3556,no
+Tamale,1-day,Random forest,DHR,730,2.6,"[0.8, 4.7]",-2.77,0.0029,1,0.0,0.0058,yes
+Kumasi,1-day,Random forest,DHR,730,3.9,"[2.1, 5.6]",-4.07,0.0,1,0.0,0.0001,yes
 Accra,1-day,Random forest,DHR,730,5.3,"[3.1, 7.3]",-4.21,0.0,1,0.0,0.0001,yes
-Takoradi,1-day,XGBoost,DHR,730,4.4,"[1.7, 6.9]",-3.03,0.0012,1,0.0,0.0037,yes
-Navrongo,1-day,LSTM,Climatology,730,2.4,"[-0.3, 5.0]",-1.7,0.045,1,0.0,0.045,yes
-Tamale,1-day,Random forest,Climatology,730,4.1,"[1.3, 7.1]",-2.82,0.0025,1,0.0,0.0049,yes
-Kumasi,1-day,Random forest,Climatology,730,6.5,"[4.2, 8.9]",-5.23,0.0,1,0.0,0.0,yes
+Takoradi,1-day,Random forest,DHR,730,4.3,"[2.4, 6.2]",-4.01,0.0,1,0.0,0.0001,yes
+Navrongo,1-day,LSTM,Climatology,730,2.4,"[-0.3, 5.0]",-1.71,0.044,1,0.0,0.044,yes
+Tamale,1-day,Random forest,Climatology,730,4.0,"[1.1, 7.0]",-2.79,0.0027,1,0.0,0.0055,yes
+Kumasi,1-day,Random forest,Climatology,730,7.0,"[4.5, 9.4]",-5.38,0.0,1,0.0,0.0,yes
 Accra,1-day,Random forest,Climatology,730,9.2,"[6.3, 11.7]",-5.57,0.0,1,0.0,0.0,yes
-Takoradi,1-day,XGBoost,Climatology,730,10.2,"[6.9, 13.5]",-5.49,0.0,1,0.0,0.0,yes
+Takoradi,1-day,Random forest,Climatology,730,10.1,"[7.2, 13.1]",-6.18,0.0,1,0.0,0.0,yes
 Navrongo,7-day,Random forest,DHR,724,-0.6,"[-1.6, 0.4]",1.04,0.8512,7,0.0,1.0,no
-Tamale,7-day,LSTM,DHR,724,-2.2,"[-4.3, -0.2]",2.02,0.978,7,0.0,1.0,no
+Tamale,7-day,LSTM,DHR,724,-2.5,"[-5.0, -0.2]",1.91,0.9715,7,0.0,1.0,no
 Kumasi,7-day,Random forest,DHR,724,-0.0,"[-1.7, 1.6]",0.03,0.5115,7,0.0,1.0,no
 Accra,7-day,Random forest,DHR,724,0.1,"[-1.5, 1.6]",-0.1,0.4619,7,0.0,1.0,no
-Takoradi,7-day,LSTM,DHR,724,-0.0,"[-1.5, 1.4]",0.03,0.5116,7,0.0,1.0,no
+Takoradi,7-day,LSTM,DHR,724,-0.0,"[-1.5, 1.4]",0.03,0.5115,7,0.0,1.0,no
 Navrongo,7-day,Random forest,Climatology,724,0.0,"[-2.3, 2.1]",-0.0,0.4986,7,0.0,0.9972,no
-Tamale,7-day,LSTM,Climatology,724,-1.6,"[-4.7, 1.2]",1.05,0.8532,7,0.0,0.9972,no
+Tamale,7-day,LSTM,Climatology,724,-1.9,"[-5.2, 1.0]",1.13,0.8698,7,0.0,0.9972,no
 Kumasi,7-day,Random forest,Climatology,724,2.4,"[0.4, 4.5]",-2.22,0.0134,7,0.0,0.0403,yes
 Accra,7-day,Random forest,Climatology,724,4.3,"[1.9, 6.5]",-3.17,0.0008,7,0.0,0.0032,yes
 Takoradi,7-day,LSTM,Climatology,724,3.8,"[1.8, 5.8]",-3.36,0.0004,7,0.0,0.0021,yes

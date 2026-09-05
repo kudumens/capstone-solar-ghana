@@ -1,31 +1,31 @@
 Site,Model,Horizon,Selection_s,Refit_s,Total_s,Source
-Navrongo,Random forest,1-day,80.0,,80.0,artifact timestamps
-Navrongo,XGBoost,1-day,41.4,,41.4,artifact timestamps
-Tamale,Random forest,1-day,74.0,,74.0,artifact timestamps
-Tamale,XGBoost,1-day,30.4,,30.4,artifact timestamps
-Kumasi,Random forest,1-day,62.1,,62.1,artifact timestamps
-Kumasi,XGBoost,1-day,33.5,,33.5,artifact timestamps
-Accra,Random forest,1-day,86.0,,86.0,artifact timestamps
-Accra,XGBoost,1-day,39.1,,39.1,artifact timestamps
-Takoradi,Random forest,1-day,95.6,,95.6,artifact timestamps
-Takoradi,XGBoost,1-day,31.0,,31.0,artifact timestamps
-Navrongo,Random forest,7-day,62.9,,62.9,artifact timestamps
-Navrongo,XGBoost,7-day,30.8,,30.8,artifact timestamps
-Tamale,Random forest,7-day,72.5,,72.5,artifact timestamps
-Tamale,XGBoost,7-day,41.6,,41.6,artifact timestamps
-Kumasi,Random forest,7-day,81.5,,81.5,artifact timestamps
-Kumasi,XGBoost,7-day,47.9,,47.9,artifact timestamps
-Accra,Random forest,7-day,74.0,,74.0,artifact timestamps
-Accra,XGBoost,7-day,31.3,,31.3,artifact timestamps
-Takoradi,Random forest,7-day,66.4,,66.4,artifact timestamps
-Takoradi,XGBoost,7-day,29.2,,29.2,artifact timestamps
-Navrongo,LSTM,1-day,523.4,29.8,553.2,artifact timestamps
-Tamale,LSTM,1-day,570.1,94.5,664.6,artifact timestamps
-Kumasi,LSTM,1-day,701.1,37.7,738.8,artifact timestamps
-Accra,LSTM,1-day,342.6,35.8,378.4,artifact timestamps
-Takoradi,LSTM,1-day,386.1,14.9,401.0,artifact timestamps
-Navrongo,LSTM,7-day,404.7,9.7,414.4,artifact timestamps
-Tamale,LSTM,7-day,456.5,31.6,488.0,artifact timestamps
-Kumasi,LSTM,7-day,475.3,22.5,497.9,artifact timestamps
-Accra,LSTM,7-day,260.1,8.6,268.7,artifact timestamps
-Takoradi,LSTM,7-day,239.7,6.9,246.6,artifact timestamps
+Navrongo,Random forest,1-day,168.9,,168.9,measured
+Navrongo,XGBoost,1-day,70.8,,70.8,measured
+Tamale,Random forest,1-day,178.8,,178.8,measured
+Tamale,XGBoost,1-day,65.8,,65.8,measured
+Kumasi,Random forest,1-day,162.6,,162.6,measured
+Kumasi,XGBoost,1-day,65.8,,65.8,measured
+Accra,Random forest,1-day,174.6,,174.6,measured
+Accra,XGBoost,1-day,67.6,,67.6,measured
+Takoradi,Random forest,1-day,167.0,,167.0,measured
+Takoradi,XGBoost,1-day,66.7,,66.7,measured
+Navrongo,Random forest,7-day,166.9,,166.9,measured
+Navrongo,XGBoost,7-day,66.8,,66.8,measured
+Tamale,Random forest,7-day,164.0,,164.0,measured
+Tamale,XGBoost,7-day,66.0,,66.0,measured
+Kumasi,Random forest,7-day,164.6,,164.6,measured
+Kumasi,XGBoost,7-day,65.6,,65.6,measured
+Accra,Random forest,7-day,173.6,,173.6,measured
+Accra,XGBoost,7-day,66.3,,66.3,measured
+Takoradi,Random forest,7-day,170.2,,170.2,measured
+Takoradi,XGBoost,7-day,65.5,,65.5,measured
+Navrongo,LSTM,1-day,215.8,12.1,227.9,measured
+Tamale,LSTM,1-day,242.6,12.0,254.6,measured
+Kumasi,LSTM,1-day,318.7,26.7,345.4,measured
+Accra,LSTM,1-day,143.6,6.4,150.0,measured
+Takoradi,LSTM,1-day,153.4,6.4,159.8,measured
+Navrongo,LSTM,7-day,135.0,8.9,143.9,measured
+Tamale,LSTM,7-day,171.3,9.5,180.8,measured
+Kumasi,LSTM,7-day,185.8,14.3,200.1,measured
+Accra,LSTM,7-day,102.8,7.2,110.0,measured
+Takoradi,LSTM,7-day,99.6,5.0,104.6,measured

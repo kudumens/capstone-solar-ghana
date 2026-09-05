@@ -8,11 +8,11 @@
     "colsample_bytree": 0.8,
     "learning_rate": 0.03,
     "max_depth": 3,
-    "min_child_weight": 5,
+    "min_child_weight": 1,
     "subsample": 0.8
   },
   "tamale|Random forest|1-day": {
-    "max_depth": null,
+    "max_depth": 20,
     "max_features": 0.5,
     "min_samples_leaf": 5
   },
@@ -21,18 +21,18 @@
     "learning_rate": 0.03,
     "max_depth": 3,
     "min_child_weight": 5,
-    "subsample": 1.0
+    "subsample": 0.8
   },
   "kumasi|Random forest|1-day": {
-    "max_depth": 10,
+    "max_depth": null,
     "max_features": "sqrt",
     "min_samples_leaf": 5
   },
   "kumasi|XGBoost|1-day": {
-    "colsample_bytree": 1.0,
+    "colsample_bytree": 0.8,
     "learning_rate": 0.03,
     "max_depth": 3,
-    "min_child_weight": 1,
+    "min_child_weight": 5,
     "subsample": 0.8
   },
   "accra|Random forest|1-day": {
@@ -57,7 +57,7 @@
     "learning_rate": 0.03,
     "max_depth": 3,
     "min_child_weight": 5,
-    "subsample": 0.8
+    "subsample": 1.0
   },
   "navrongo|Random forest|7-day": {
     "max_depth": 10,
@@ -68,7 +68,7 @@
     "colsample_bytree": 0.8,
     "learning_rate": 0.03,
     "max_depth": 3,
-    "min_child_weight": 5,
+    "min_child_weight": 1,
     "subsample": 1.0
   },
   "tamale|Random forest|7-day": {
@@ -92,8 +92,8 @@
     "colsample_bytree": 0.8,
     "learning_rate": 0.03,
     "max_depth": 3,
-    "min_child_weight": 5,
-    "subsample": 1.0
+    "min_child_weight": 1,
+    "subsample": 0.8
   },
   "accra|Random forest|7-day": {
     "max_depth": 10,
@@ -105,7 +105,7 @@
     "learning_rate": 0.03,
     "max_depth": 3,
     "min_child_weight": 1,
-    "subsample": 1.0
+    "subsample": 0.8
   },
   "takoradi|Random forest|7-day": {
     "max_depth": 10,
@@ -116,7 +116,7 @@
     "colsample_bytree": 0.8,
     "learning_rate": 0.03,
     "max_depth": 3,
-    "min_child_weight": 1,
+    "min_child_weight": 5,
     "subsample": 0.8
   },
   "navrongo|LSTM|1-day": {
@@ -159,7 +159,7 @@
     "units": 128,
     "n_layers": 1,
     "dropout": 0.2,
-    "best_epoch": 12
+    "best_epoch": 17
   },
   "kumasi|LSTM|7-day": {
     "units": 32,

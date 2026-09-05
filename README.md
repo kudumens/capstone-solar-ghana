@@ -20,14 +20,14 @@ Best ML model per site (frozen on 2021–2022 validation) vs. the strongest clas
 
 | Site | Best ML | Test RMSE (kWh/m²/day) | Skill vs. DHR | Holm p (one-sided HLN DM) |
 | --- | --- | --- | --- | --- |
-| Navrongo | LSTM | 0.845 | +0.4% | .365 |
-| Tamale | Random forest | 0.828 | +2.7% | .005 |
-| Kumasi | Random forest | 0.664 | +3.5% | < .001 |
+| Navrongo | LSTM | 0.845 | +0.4% | .356 |
+| Tamale | Random forest | 0.829 | +2.6% | .006 |
+| Kumasi | Random forest | 0.661 | +3.9% | < .001 |
 | Accra | Random forest | 0.841 | +5.3% | < .001 |
-| Takoradi | XGBoost | 1.024 | +4.4% | .004 |
+| Takoradi | Random forest | 1.025 | +4.3% | < .001 |
 
-- **H1 (≥15% RMSE reduction vs. climatology, significant in every zone): not supported.** Gains are statistically significant at 4/5 sites vs. DHR (5/5 vs. climatology) but peak at +10.2% vs. climatology. At the 7-day horizon no model separates from the seasonal baseline. Model combination (ensembles, DHR blends) adds nothing (`results/ensemble_check.csv`).
-- **H2 (cloud & humidity strongest drivers): not supported.** Cloud amount is the strongest *marginal* correlate everywhere (Spearman ρ −.44 to −.69), but conditionally (SHAP) irradiance history absorbs the signal.
+- **H1 (≥15% RMSE reduction vs. climatology, significant in every zone): not supported.** Gains are statistically significant at 4/5 sites vs. DHR (5/5 vs. climatology) but peak at +10.1% vs. climatology. At the 7-day horizon no model separates from the seasonal baseline. Model combination adds nothing material: DHR blends never help materially (at most +0.1%) and the equal-weight ML ensemble gains at most 0.6% at one site (`results/ensemble_check.csv`).
+- **H2 (cloud & humidity strongest drivers): not supported.** Cloud amount is the strongest *marginal* correlate everywhere (Spearman ρ −.44 to −.69), but conditionally (SHAP) the irradiance-history block absorbs the signal: cloud and humidity rank low at every site, and the same-day drivers that do surface (precipitation, wind) are not the two H2 named.
 - **H3 (wet-season degradation, worst in the south): partially supported.** Wet > dry RMSE significant at Kumasi/Accra/Takoradi; stable zonal ordering (forest easiest, coast hardest).
 - **H4 (≥25% zonal battery difference): supported decisively.** At the 200 kWh/month tier, required nominal battery spans 1.4→6.2 kWh (LOLP 5%) and 4.3→32.4 kWh (LOLP 1%) across zones: a 343–654% spread (year-block bootstrap CIs entirely above 25%). The 2-day-autonomy installer rule oversizes the north ~10× while failing the 1% target in the forest zone.
 
@@ -67,8 +67,8 @@ bash setup_env.sh
 Execution notes:
 
 - **Determinism**: `SEED = 42` in every notebook (Python/NumPy/scikit-learn/XGBoost/TensorFlow). Splits are frozen in `src/config.py` (train ≤ 2020, validation 2021–2022, test 2023–2024; the test window is touched only in notebook 06, once).
-- **Search modes (notebook 05)**: `NB05_SEARCH_MODE=full` (default; 27 RF / 72 XGB / 12 LSTM configurations, ~95 min on an Apple-silicon CPU) or `quick` (reduced grids for smoke tests).
-- **Checkpointing**: notebooks 05–07 checkpoint all expensive work to `results/cache/` and resume after interruption (useful on Colab). Optional wall-clock budgets via `NB05_BUDGET_S` / `NB06_BUDGET_S` / `NB07_BUDGET_S` make runs stop cleanly and resume on rerun.
+- **Search modes (notebook 05)**: `NB05_SEARCH_MODE=full` (default; 27 RF / 72 XGB / 12 LSTM configurations, ~71 min on a Google Colab A100 runtime; ~95 min on an Apple-silicon CPU) or `quick` (reduced grids for smoke tests).
+- **Checkpointing**: notebooks 05–07 checkpoint all expensive work to `results/cache/` and resume after interruption (useful on Colab). The results committed here come from a clean end-to-end run on Google Colab (A100 GPU runtime, cache cleared first); the earlier Apple-silicon run gave the same conclusions with differences at the third decimal. Optional wall-clock budgets via `NB05_BUDGET_S` / `NB06_BUDGET_S` / `NB07_BUDGET_S` make runs stop cleanly and resume on rerun.
 - Executing end-to-end with existing caches only re-renders tables and figures; delete `results/cache/` to force full recomputation.
 
 ## Repository structure

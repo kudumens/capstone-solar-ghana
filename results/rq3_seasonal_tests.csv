@@ -1,11 +1,11 @@
 Site,Zone,Horizon,Model,RMSE wet,RMSE dry,Diff,Block len,p (one-sided MBB),RMSE JJA,RMSE rest,p Holm,Significant (5%)
-Navrongo,sudan_savannah,1-day,LSTM,0.858,0.827,0.031,1,0.2979,1.118,0.73,0.2979,no
-Tamale,guinea_savannah,1-day,Random forest,0.869,0.767,0.102,1,0.061,1.024,0.751,0.122,no
-Kumasi,forest,1-day,Random forest,0.749,0.523,0.225,1,0.0005,0.686,0.657,0.0025,yes
+Navrongo,sudan_savannah,1-day,LSTM,0.857,0.827,0.03,1,0.3008,1.117,0.73,0.3008,no
+Tamale,guinea_savannah,1-day,Random forest,0.87,0.766,0.104,1,0.058,1.023,0.752,0.116,no
+Kumasi,forest,1-day,Random forest,0.743,0.524,0.22,1,0.0005,0.685,0.653,0.0025,yes
 Accra,coastal_savannah,1-day,Random forest,0.999,0.549,0.45,1,0.0005,0.836,0.843,0.0025,yes
-Takoradi,coastal,1-day,XGBoost,1.202,0.701,0.502,1,0.0005,1.041,1.018,0.0025,yes
+Takoradi,coastal,1-day,Random forest,1.211,0.683,0.528,1,0.0005,1.029,1.023,0.0025,yes
 Navrongo,sudan_savannah,7-day,Random forest,0.869,0.863,0.007,7,0.4998,1.14,0.751,0.4998,no
-Tamale,guinea_savannah,7-day,LSTM,0.925,0.806,0.119,7,0.056,0.998,0.834,0.112,no
+Tamale,guinea_savannah,7-day,LSTM,0.933,0.8,0.133,7,0.0375,0.993,0.839,0.075,no
 Kumasi,forest,7-day,Random forest,0.767,0.578,0.189,7,0.0005,0.703,0.693,0.0025,yes
 Accra,coastal_savannah,7-day,Random forest,1.036,0.623,0.413,7,0.0005,0.926,0.877,0.0025,yes
 Takoradi,coastal,7-day,LSTM,1.284,0.765,0.518,7,0.0005,1.145,1.085,0.0025,yes

@@ -19,3 +19,5 @@ Thumbs.db
 *.h5
 *.keras
 results/cache/
+local-old-version/
+colab-old-version/
